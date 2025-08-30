@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { Pricingplan } from '../../pricingplan/pricingplan';
+import { Category } from '../../category/category';
 
 @Component({
   selector: 'app-home',
-  imports: [CarouselModule, Pricingplan],
+  imports: [CarouselModule, Pricingplan, Category],
   templateUrl: './home.html',
   styleUrl: './home.css',
 })

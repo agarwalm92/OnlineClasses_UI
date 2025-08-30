@@ -1,0 +1,9 @@
+<div class="d-flex flex-row overflow-auto gap-3 p-3" style="white-space: nowrap">
+  <div *ngFor="let category of categories" class="card flex-shrink-0" style="width: 18rem">
+    <div class="card-body">
+      <h5 class="card-title">{{ category.categoryName }}</h5>
+      <p class="card-text">{{ category.description }}</p>
+      <a href="#" class="btn btn-primary">Go</a>
+    </div>
+  </div>
+</div>
