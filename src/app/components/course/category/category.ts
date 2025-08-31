@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
-import { categoryModel } from '../../model/categoryModel';
+import { categoryModel } from '../../../model/categoryModel';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-category',
-  imports: [CommonModule, FormsModule],
+  imports: [RouterModule, CommonModule, FormsModule],
   templateUrl: './category.html',
   styleUrl: './category.css',
 })

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { Pricingplan } from '../../pricingplan/pricingplan';
-import { Category } from '../../category/category';
+import { Category } from '../../course/category/category';
 
 @Component({
   selector: 'app-home',
